@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(250, 173, 73);
+}
+
+.container{
+    width: 70%;
+    min-height: 100vh;
+    margin: auto;
+    background-color: antiquewhite;
+    padding: 1em;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 2vmax;
+}
+
+form > input,button{
+    margin: 0 0 1vmax 0;
+    padding: 0.5vmax;
+    outline: none;
+    width: 80%;
+    border : none;
+    border-radius: 0.3em;
+}
+
+textarea {
+    background-color: rgba(254, 254, 254, 0.861);
+    padding: 10px;
+    width: 80%;
+    margin: 0 0 10px 0;
+    border-radius: 0.3em;
+    outline: none;
+    border: none; 
+    font-family: 'Roboto', sans-serif;
+      
+}
+
+form > input{
+    width: 50%;
+}
+
+form > input::-webkit-input-placeholder{
+    font-family: 'Gill Sans';
+
+    font-size: 1.2em; 
+}
+
+button{
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.906);
+    color: rgb(242, 236, 236);
+    font-size: 1.2em;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: rgb(28, 133, 31);
+    transform: scale(0.9);
+
+}
+
+.task{
+    margin: 2vmax;
+    background-color: bisque;
+    border-radius: 1.2em;
+    padding: 2vmax;
+    display: flex;
+    align-items: center;
+}
+
+.task > div{
+    width: 100%;
+}
+
+p,span{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-size: 1.5em;
+    
+}
+
+#deleteBtn{
+    color: rgb(242, 236, 236);
+    width: 50px;
+    height: 45px;
+    border-radius: 30px;
+    transition:all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    background-color: rgb(174, 17, 17);
+}
+
+#deleteBtn:hover{
+    background-color: rgb(46, 15, 15);
+    transform: scale(0.7);
+}
+

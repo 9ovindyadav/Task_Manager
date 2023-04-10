@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Manager</h1>
+        <form>
+            <input type="text" id="title" placeholder="Title">
+            <textarea id="description" placeholder="Description" onkeyup="textAreaAdjust(this)" style="overflow:hidden" ></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
